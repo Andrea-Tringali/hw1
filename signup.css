@@ -1,0 +1,116 @@
+body {
+    padding: 0;
+    margin: 0;
+    font: 14px 'Open sans', sans-serif;
+    color: #333;
+    height: 600px;
+    background-image: url(s.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px; 
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 20px;
+	font-size: 24px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px 0px rgb(122, 118, 118, 0.568);
+    width: 560px;
+    height: 550px;
+    padding: 40px;
+    position: relative;
+    bottom: 90px;
+    background: white;
+    border-radius: 20px;
+    margin: 100px auto;
+}
+
+form h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}   
+
+.registrazione{
+    padding-left: 40px;
+    padding-right: 40px;
+    border-left: 1px solid rgb(61, 60, 60);
+}
+
+#logo{
+    position: relative;
+    right: 30px;
+    width: 300px;
+    height: 250px;
+    background-size: cover;
+    background-image: url(logo_s.png);
+}
+
+input {
+	font: 14px 'Open Sans', sans-serif;
+    border: 2px solid #ccc;
+    padding: 6px;
+    display: block;
+	margin-bottom: 10px;
+    width: 96%;
+    border-radius: 10px;
+}
+
+input:enabled[type=submit]{
+    background-color: rgb(44, 77, 196);
+    color: white;
+}
+
+input:disabled{
+    background-color: black;
+    color: white;
+}
+
+.hidden{
+    display:none;
+}
+
+footer {
+    margin-top: 250px;
+    color:white;
+    text-align: center;
+}
+  
+footer p{
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: small;
+}
+
+form span { 
+  display:none;
+}
+
+.errore span {
+  display: block;
+  color:red;
+  font-size:12px;
+}
+
+.allow{
+    display: flex;
+    flex-direction: row;
+}
+
+.allow #verifica{
+    position: relative;
+    top: 1px;
+    margin-right: 5px;
+    height: 12px;
+    width: 12px;
+}
+

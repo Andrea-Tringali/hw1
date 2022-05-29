@@ -1,0 +1,105 @@
+body {
+    padding: 0;
+    margin: 0;
+    font: 14px 'Open sans', sans-serif;
+    color: #333;
+    height: 550px;
+    background-image: url(s.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 20px;
+	font-size: 24px;
+}
+
+.accesso{
+    padding: 40px;
+    width: 360px;
+    margin: 100px auto;
+    border-left: 1px solid rgb(61, 60, 60);
+}
+
+#logo{
+    position: relative;
+    right: 30px;
+    width: 300px;
+    height: 250px;
+    background-size: cover;
+    background-image: url(logo_s.png);
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px 0px rgb(122, 118, 118, 0.568);
+    width: 560px;
+    height: 300px;
+    padding: 40px;
+    background: white;
+    border-radius: 20px;
+    margin: 150px auto;
+}
+
+Form h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+	font: 14px 'Open Sans', sans-serif;
+    border: 2px solid #ccc;
+    padding: 6px;
+    display: block;
+	margin-bottom: 10px;
+    width: 96%;
+    border-radius: 10px;
+}
+
+button {
+    font: 14px 'Open Sans', sans-serif;
+    background-color: #4285f4;
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+	text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.error{
+    
+    border-color: rgb(236, 68, 68);
+
+}
+
+#segnalazione{
+    color: red;
+}
+
+#segnpass{
+    color: red;
+}
+
+.hidden{
+    display:none;
+}
+
+footer {
+    margin-top: 250px;
+    color:white;
+    text-align: center;
+}
+  
+footer p{
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: small;
+}

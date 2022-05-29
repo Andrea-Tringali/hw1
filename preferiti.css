@@ -1,0 +1,215 @@
+::-webkit-scrollbar {
+
+    background-color:black;
+} 
+
+
+::-webkit-scrollbar-track{ 
+    background-color:black;
+}
+
+::-webkit-scrollbar-thumb { 
+    background-color: grey;
+}
+
+body{
+    font-family: 'Averia Serif Libre', cursive;
+    letter-spacing: 2px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    height: auto;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+
+nav{
+    height:100px;
+    width: 100%;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color: rgb(38 37 37);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:1;
+}
+
+.collegamenti {
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.collegamenti a{
+    border-radius: 50px;
+    color:white;
+ 
+    font-size: 15px;
+    text-transform: uppercase;  
+}
+
+.collegamenti a:visited {
+    text-decoration: none;
+}
+
+.collegamenti a:hover{
+   cursor: pointer;
+   text-decoration: underline;
+}
+
+#return{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url(return.png);
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+ 
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: transparent;
+    margin: 20px 0px;
+    margin-top: 150px;
+    border-radius: 20px;
+   
+    width: auto;
+    height: auto;
+}
+
+section h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+footer{
+    
+    height:200px;
+    width: 1381px;
+    margin-bottom: -10px;
+    background-color: rgb(31, 31, 31);
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-family: 'Prata', serif;
+
+}
+
+footer div{
+    text-align: left;
+}
+
+footer h2{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+}
+
+footer a{
+    display:block;
+    font-size: 15px;
+    color: white
+}
+
+#nomecognome h2{
+    font-size:20px;
+    text-align: center;
+    color:white;
+    font-family: 'Prata', serif;
+}
+
+.hidden { 
+    display: none;
+}
+
+#fav-list {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  
+#fav-list .box-book {
+    padding: 15px;
+    background-color: rgb(203, 202, 202);
+    font-size: 20px;
+    width: 270px;
+    height: auto;
+    box-shadow: 0px 5px 5px;
+    position: relative;
+    border-radius: 20px;
+    text-align: left;
+}
+  
+.box-book img{
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+  
+.box-book p {
+    display: none;
+}
+  
+.box-book a {
+    cursor: pointer;
+    margin-top: 3px;
+    font-size: 0.8rem;
+    border-radius: 15px;
+    background-color: rgb(126, 126, 190);
+    color: black;
+    width: auto;
+    padding: 5px;
+}
+  
+.box-book a:hover {
+    color: black;
+    background-color: rgb(165, 165, 201);
+}
+
+.box-book h2{
+    font-size: 14px;
+}
+
+.box-book h1{
+    font-size: 18px;
+}
+
+.pvuoto{
+    margin-bottom: 150px;
+}
+
+  
+
+  
